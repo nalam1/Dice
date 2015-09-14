@@ -18,7 +18,7 @@ void draw()
 
 	fill(255);
 	textSize(20);
-	text("total is: " + sum, 125,25);
+	text("total is: " + sum, 325,325);
 
 }
 void mousePressed()

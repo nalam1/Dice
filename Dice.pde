@@ -1,6 +1,6 @@
 void setup()
 {
-	size(800,800);
+	size(815,815);
 	noLoop();	
 }
 void draw()
@@ -8,8 +8,8 @@ void draw()
 	//your code here
 	background(0,0,0);
 	int sum = 0; 
-	for(int i = -2.5;i < 800;i += 51) {
-		for(int j = 45;j < 800; j += 51) {
+	for(int i = -2.5;i < 815;i += 51) {
+		for(int j = 45;j < 815; j += 51) {
 			Die bob = new Die(i,j);
 			bob.show();
 			sum = sum + bob.dots
